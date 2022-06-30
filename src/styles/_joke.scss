@@ -1,0 +1,25 @@
+.joke {
+  background-color: #ecb390;
+  width: 100vw;
+
+  display: flex;
+  justify-content: flex-start;
+  min-width: 50vw;
+  padding: 0.5rem;
+
+  flex-direction: column;
+
+  button {
+    border: none;
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem;
+    font-size: larger;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  p {
+    color: #292929;
+    padding: 0 0.5rem;
+    font-size: medium;
+  }
+}

@@ -1,0 +1,97 @@
+* {
+  font-family: "Arvo", serif;
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.weatherPart {
+  width: 100vw;
+  background-color: #94b49f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5rem;
+}
+
+.weatherPart .weather {
+  padding: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.weatherPart .weather input,
+.weatherPart .weather button {
+  font-size: larger;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+.weatherInfo {
+  width: 50vw;
+  padding-top: 0.5rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.joke {
+  background-color: #ecb390;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-width: 50vw;
+  padding: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.joke button {
+  border: none;
+  padding: 0.3rem 0.5rem;
+  margin: 0.5rem;
+  font-size: larger;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.joke p {
+  color: #292929;
+  padding: 0 0.5rem;
+  font-size: medium;
+}
+/*# sourceMappingURL=style.css.map */
